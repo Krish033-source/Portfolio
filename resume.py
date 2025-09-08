@@ -157,11 +157,6 @@ SKILLS = {
 # ----------------------------
 col1, col2 = st.columns([1,2], gap="large")
 with col1:
-    if os.path.exists(PROFILE_IMG):
-        img = Image.open(PROFILE_IMG)
-        st.image(img, width=230, caption=NAME)
-    else:
-        st.markdown(f"<div class='card'><h3 class='neon'>{NAME}</h3><div class='small'>Add profile.jpg in assets/ to show photo</div></div>", unsafe_allow_html=True)
     st.markdown("<div style='height:10px'></div>", unsafe_allow_html=True)
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown(f"<div class='badge'>Open to Internships and Research Work</div> <div class='badge'>Freelance: ML/Data</div>", unsafe_allow_html=True)
@@ -382,4 +377,5 @@ st.markdown("<div style='height:14px'></div>", unsafe_allow_html=True)
 st.markdown("<div class='card'><div style='font-weight:700'>Ready for interviews & paid internships</div><div class='small' style='margin-top:6px'>I can share demo links, runnable notebook, or host a 10-minute walkthrough. Email or DM to schedule.</div>", unsafe_allow_html=True)
 st.markdown("<div style='height:10px'></div>", unsafe_allow_html=True)
 st.markdown("<div class='footer'>© 2025 Krishna Lal — Built with production focus • Portfolio generated from app content</div>", unsafe_allow_html=True)
+
 
