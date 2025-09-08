@@ -24,9 +24,6 @@ st.set_page_config(
 # ----------------------------
 # Load assets & Lottie
 # ----------------------------
-ASSETS_DIR = "assets"
-PROFILE_IMG = os.path.join(ASSETS_DIR, "profile.jpg")
-
 # Example Lottie URL (coding / developer animation). Replace if you have local JSON.
 LOTTIE_URL = "https://assets2.lottiefiles.com/packages/lf20_jtbfg2nb.json"
 def load_lottie(url):
@@ -385,3 +382,4 @@ st.markdown("<div style='height:14px'></div>", unsafe_allow_html=True)
 st.markdown("<div class='card'><div style='font-weight:700'>Ready for interviews & paid internships</div><div class='small' style='margin-top:6px'>I can share demo links, runnable notebook, or host a 10-minute walkthrough. Email or DM to schedule.</div>", unsafe_allow_html=True)
 st.markdown("<div style='height:10px'></div>", unsafe_allow_html=True)
 st.markdown("<div class='footer'>© 2025 Krishna Lal — Built with production focus • Portfolio generated from app content</div>", unsafe_allow_html=True)
+
